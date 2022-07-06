@@ -1,0 +1,108 @@
+.container {
+  background-color: #fcfcfc;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border: 1px double #b7005c;
+  height: 500px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: auto;
+}
+
+.container h1{
+  color:#252531;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.container h2{
+  color:#383842;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container p{
+  color:#191919;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cadastro input{
+  color:#383842;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.msg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.msg h1{
+  margin-bottom: 20px;
+}
+
+.msg h3, p{
+  padding: 0;
+  margin: 0;
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cadastro form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  text-align:left;
+  margin: 10px 0px;
+  margin-top: 15px;
+  padding: 0;
+  font-size: 12px;
+}
+
+.cadastro input{
+  padding: 10px 10px;
+  border: 1,5px solid black;
+  border-radius: 10px;
+  width: 70vw;
+  max-width: 300px;
+  font:caption;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.senha button{
+  padding: 15px 10px;
+  gap: 8px;
+  margin-top: 28px;
+  color: white;
+  background-color: #b7005c;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.enviocadastro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.enviocadastro a{
+  text-decoration: none;
+  color: #b7005c;
+  font-size: 14px;
+}

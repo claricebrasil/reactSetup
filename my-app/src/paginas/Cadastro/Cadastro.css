@@ -1,0 +1,79 @@
+.container {
+  background-color: #fcfcfc;
+  height: 100vh;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px double #b7005c;
+  text-align: center;
+}
+
+h1 {
+  color: #252531;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #383842;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro label {
+  color: #191919;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: justify;
+  margin-left: 32px;
+}
+
+.cadastro input {
+  color: #6b6b6b;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1, 5px solid black;
+  max-width: 320px;
+  font: caption;
+  margin-left: 32px;
+}
+
+.link p {
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: #b7005c;
+}
+
+.link button {
+  padding: 16px;
+  color: white;
+  background-color: #b7005c;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.fazerlogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#login {
+  text-decoration: none;
+  color: #b7005c;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
